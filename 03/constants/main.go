@@ -24,5 +24,10 @@ func main() {
 	// Cannot do this, because x is constant
 
 	fmt.Println()
+
+	// var name = "Bala"
+	name := "Bala"
+	fmt.Println("Hi this is ", name)
+
 	os.Exit(-1)
 }
