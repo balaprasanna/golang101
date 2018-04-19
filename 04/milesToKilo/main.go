@@ -15,6 +15,7 @@ func main() {
 	fmt.Printf("Enter miles ")
 
 	_, err := fmt.Scanf("%v", &miles)
+	// miles = input("Enter an input")
 
 	if err != nil {
 		fmt.Println(err)
