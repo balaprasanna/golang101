@@ -34,9 +34,9 @@ func main() {
 		fmt.Printf("%v Miles = %v Kilometers \n", miles, kilometers)
 	case 2:
 		fmt.Printf("Choice = %v \n", choice)
-		farenheat := collectInputs("Fahrenheit")
-		clecius := convert(farenheat-32, 5.0/9.0)
-		fmt.Printf("%v Farenheat = %v Clecius \n", farenheat, clecius)
+		farenheit := collectInputs("Fahrenheit")
+		clecius := convert(farenheit-32, 5.0/9.0)
+		fmt.Printf("%v Farenheit = %v Clecius \n", farenheit, clecius)
 	case 3:
 		fmt.Printf("Choice = %v \n", choice)
 		pounds := collectInputs("Pounds")
